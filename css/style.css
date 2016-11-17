@@ -1,0 +1,392 @@
+body
+{
+	font-family: 'Lato', sans-serif;
+  background: #16a085;
+  width: 100%;
+  height: 100%;
+}
+p > a {
+	color: white;
+}
+.obrazekcenter {
+margin:0 auto;
+}
+a:hover {
+  color:#e4e4e4;
+}
+.technical {
+  background: white;
+  width: 100%;
+}
+#background {
+    background: url(../img/background.jpg);
+    background-repeat: no-repeat;
+    height:930px;
+    width:100%;
+}
+
+.text{
+    padding-top: 280px;
+
+}
+.bgtext{
+
+  font-size: 68px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+.bgtexts{
+
+  font-size: 32px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+@media screen and (max-width: 768px) {
+  .bgtext{
+
+  font-size: 48px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+.bgtexts{
+
+  font-size: 22px;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+}
+.navbar-custom {
+    border-radius: 0px;
+    background: transparent;
+    height:70px;
+    width:100%;
+    border: transparent;
+
+}
+.navbar-brand {
+    color: white;
+}
+.navbar-brand:hover {
+    color: white;
+}
+.navbar-nav > li > a {
+
+    padding-bottom: 20px;
+    padding-top: 40px;
+    color: white;
+
+}
+
+
+.nav > li > a:focus, .nav > li > a:hover {
+    background-color:transparent;
+    text-decoration: none;
+    color:#2ecc71;
+}
+
+.nav > li > a:focus, .nav > li > a:active {
+    background-color:transparent;
+    text-decoration: none;
+    color:#2ecc71;
+}
+
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus {
+  color: #2ecc71;
+
+}
+
+.navbar-custom .navbar-toggle {
+    border-color: white;
+}
+.navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {
+    background-color: transparent;
+    color:white;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color: white;
+}
+.navbar-custom .navbar-collapse, .navbar-custom .navbar-form {
+    border-color: #e7e7e7;
+}
+.navbar-custom .navbar-nav > .open > a, .navbar-custom .navbar-nav > .open > a:focus, .navbar-custom .navbar-nav > .open > a:hover {
+    background-color: #e7e7e7;
+    color: #555;
+}
+
+#omnie {
+    background: #27ae60;
+    min-height: 500px;
+    width: 100%;
+}
+.omnie {
+    padding-top: 110px;
+}
+.white {
+    color:white;
+    font-size:40px;
+    font-family: 'Lato', sans-serif;
+
+}
+.omniewhite {
+    padding-top: 20px;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font: 24px;
+}
+.text-umiejetnosci {
+
+    color:#e74c3c;
+    font-family: 'Lato', sans-serif;
+    font: 24px;
+}
+.p-umiejetnosci {
+    color: #362f2e;
+    font-family: 'Lato', sans-serif;
+    font: 35px;
+}
+#technical {
+  background: white;
+}
+.technical .skillsArea{
+    padding:0px;
+}
+.technical .skills{
+    margin:0 auto;
+    margin-bottom:23px;
+    text-align:center;
+    padding:0px;
+    float:none;
+}
+.technical .skills p{
+    color:#84868d;
+    font-size:13px;
+    line-height:18px;
+    text-align:center;
+}
+.technical .skills img{
+    margin:0 auto;
+    margin-bottom:33px;
+    width:100%;
+    max-width:152px;
+}
+
+.technical .skills h4{
+    font-weight:700;
+    text-transform:uppercase;
+}
+
+
+.skilBg{
+    background:url(../img/skills.png) no-repeat 0 0;
+}
+
+
+.chart {
+  position: relative;
+  display: inline-block;
+  width: 152px;
+  height: 152px;
+  margin-bottom: 26px;
+  text-align: center;
+}
+.chart canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.percent {
+  display: inline-block;
+  font-size:21px;
+  color:#474d5d;
+  line-height: 152px;
+  z-index: 2;
+}
+.percent:after {
+  content: '%';
+  margin-left: 0.1em;
+  font-size: .8em;
+}
+.angular {
+  margin-top: 100px;
+}
+.angular .chart {
+  margin-top: 0;
+}
+
+#uslugi {
+    padding-top: -10px;
+    min-height: 550px;
+    background: #2980b9;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+.text-uslugi {
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font: 30px;
+}
+#uslugi>.white {
+    padding-top: 30px;
+}
+.uslugipanel {
+    padding-top: 50px;
+}
+
+.h1title {
+    font-family: 'Lato', sans-serif;
+    font-weight: 20px;
+    color: black;
+}
+
+/* Portfolio */
+.protfolio{
+  background:#2bb3dd;
+}
+.protfolio .container{
+  padding-top:85px ;
+  padding-bottom:90px ;
+}
+
+.protfolio .heading p{
+  padding-bottom:41px;
+}
+
+.protfolio h4{
+  font-weight:700;
+}
+
+
+
+/* Koniec Portfolio */
+
+#kontakt {
+  background: #16a085;
+  min-height: 200px;
+}
+
+.footer{
+  color:white;
+}
+
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-white{
+    background: transparent;
+    border: 2px solid white;
+    color: #ffffff;
+}
+
+.btn-white:hover, .btn-white:focus, .btn-white:active, .btn-white.active, .open > .dropdown-toggle.btn-primary {
+        background: transparent;
+    border: 2px solid white;
+}
+
+.btn-white:active, .btn-white.active {
+    background: white;
+    box-shadow: none;
+    color:transparent;
+}
+
+
+
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.Stronyfirmowe{
+	outline: 0 none;
+	  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 10px 18px;
+  font-size: 15px;
+  line-height: 1.42857143;
+  border-radius: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;    background: transparent;
+    border: 2px solid white;
+    color: #ffffff;
+}
+
+.Stronyfirmowe:hover, .Stronyfirmowe:focus, .Stronyfirmowe:active, .Stronyfirmowe.active, .open > .dropdown-toggle.btn-primary {
+        background: transparent;
+    border: 2px solid white;
+    color:white;
+}
+
+.Stronyfirmowe:active, .Stronyfirmowe.active {
+    background: white;
+    box-shadow: none;
+    color:transparent;
+}
+
+.Serwisy{
+	  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 10px 18px;
+  font-size: 15px;
+  line-height: 1.42857143;
+  border-radius: 0;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+	outline: 0 none;
+	display: block;
+    background: transparent;
+    border: 2px solid white;
+    color: #ffffff;
+}
+
+.Serwisy:hover, .Serwisy:focus, .Serwisy:active, .Serwisy.active, .open > .dropdown-toggle.btn-primary {
+        background: transparent;
+    border: 2px solid white;
+    color:white;
+}
+
+.Serwisy:active, .Serwisy.active {
+    background: white;
+    box-shadow: none;
+    color:transparent;
+}
+
+.liquo-gallery {
+  margin: 0;
+  padding: 0;
+}
+
+.liquo-gallery li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.liquo-active { font-weight: bold; }
+
+.galeria {
+margin-left: 5%;
+}
